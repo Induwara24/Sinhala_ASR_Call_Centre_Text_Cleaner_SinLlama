@@ -1,0 +1,11 @@
+*.safetensors
+
+# Ignore model weights and large files
+lora_backup/adapter_model.safetensors
+*.gguf
+*.bin
+
+# Ignore Python cache and virtual environments
+__pycache__/
+.env
+venv/
